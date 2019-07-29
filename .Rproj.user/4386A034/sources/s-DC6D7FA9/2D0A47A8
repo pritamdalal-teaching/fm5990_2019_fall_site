@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3689653054",
+    "hash" : "0",
     "id" : "2D0A47A8",
-    "lastKnownWriteTime" : 1564429245,
-    "last_content_update" : 1564429245163,
+    "lastKnownWriteTime" : 1564435406,
+    "last_content_update" : 1564435406967,
     "path" : "~/files/python/fm5990_2019_fall_site/syllabus.Rmd",
     "project_path" : "syllabus.Rmd",
     "properties" : {
-        "cursorPosition" : "105,131",
-        "scrollLine" : "88"
+        "cursorPosition" : "18,37",
+        "scrollLine" : "0"
     },
     "relative_order" : 3,
     "source_on_save" : false,
