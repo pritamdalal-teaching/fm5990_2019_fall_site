@@ -1,0 +1,24 @@
+---
+title: ""
+---
+
+&nbsp;
+
+### **Slides**
+
+&nbsp;
+
+
+[01 - Housing Keeping](slide/01_housekeeping.pdf)
+
+[02 - Introduction to Python](slide/02_python_intro.pdf)
+
+[03 - A Guide to the Programming Books](slide/03_guide_to_programming_book.pdf)
+
+[04 - Finance Bootcamp](slide/04_finance_bootcamp.pdf)
+
+[05 - Python, IPython, Jupyter](slide/05_python_ipython_jupyter.pdf)
+
+[06 - Course Wrap-Up](slide/06_course_wrap_up.pdf)
+
+

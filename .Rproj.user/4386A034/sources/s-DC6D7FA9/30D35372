@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564429801748.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "749307089",
+    "id" : "30D35372",
+    "lastKnownWriteTime" : 1564429836,
+    "last_content_update" : 1564429836918,
+    "path" : "~/files/python/fm5990_2019_fall_site/course_material.Rmd",
+    "project_path" : "course_material.Rmd",
+    "properties" : {
+        "cursorPosition" : "22,29",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

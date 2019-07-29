@@ -1,0 +1,152 @@
+---
+title: ""
+editor_options: 
+  chunk_output_type: console
+---
+
+&nbsp;
+
+### **FM 5990 - Financial Data Analysis in Python**
+
+Welcome to the course website for FM 5990 - Fall 2019.
+
+&nbsp;
+
+```{r, loading_packages, include=FALSE}
+library(fOptions)
+library(bizdays)
+library(tidyverse)
+library(gridExtra)
+```
+
+
+
+```{r, services_art, echo=FALSE, fig.height=3.25, fig.width=8, fig.align="center"}
+# df_market_history <- 
+#     read_csv("practice_market_history.csv", col_types = cols())
+
+# df_liquidity <-
+#   df_market_history %>% 
+#     group_by(underlying) %>% 
+#     summarize(daily_volume = (sum(volume) / nrow(df_market_history %>% distinct(trade_date)))
+#               ,avg_spread = mean(ask - bid)) %>% 
+#     arrange(desc(daily_volume))
+
+#write_csv(df_liquidity, "liquidty.csv")
+
+df_liquidity <- read_csv("art_data_liquidty.csv", col_types = cols())
+
+# let's reproduce this graph using ggplot()
+p1 <- 
+  ggplot(data = df_liquidity) +
+  geom_point(mapping = aes(x = log(daily_volume), y = avg_spread, color="grey37"), size = 0.75, na.rm = TRUE) +
+  geom_smooth(mapping = aes(x = log(daily_volume), y = avg_spread), color="steelblue1", se = FALSE, method = "loess", na.rm = TRUE) +
+  scale_y_continuous(limits = c(0, 0.2)) +
+  theme(axis.title.x=element_blank()
+        , axis.text.x=element_blank()
+        , axis.ticks.x=element_blank()
+        , axis.title.y=element_blank()
+        , axis.text.y=element_blank()
+        , axis.ticks.y=element_blank()
+        , legend.position="none"
+  )
+
+
+# df_spy_time <-
+#   df_market_history %>% 
+#     filter(underlying == "SPY") %>%
+#     filter(expiration == as.Date("2013-09-21")) %>% 
+#     arrange(trade_date, strike)
+
+
+#write_csv(df_spy_time, "spy_time.csv")
+
+df_spy_time <- read_csv("art_data_spy_time.csv", col_types = cols())
+
+# log-strike, like a boss
+p2 <- 
+    ggplot(data = df_spy_time %>% filter(trade_date < as.Date("2013-09-01"))) +
+    geom_line(
+        mapping = aes(x = log(strike/implied_forward)
+        , y = implied_vol, group = trade_date, color = trade_date)
+        , size = 0.75
+        , alpha = 0.65
+    ) +
+  theme(axis.title.x=element_blank()
+        , axis.text.x=element_blank()
+        , axis.ticks.x=element_blank()
+        , axis.title.y=element_blank()
+        , axis.text.y=element_blank()
+        , axis.ticks.y=element_blank()
+        , legend.position="none"
+  )
+
+gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
+```
+
+&nbsp;
+
+### Announcements
+
+
+<!-- #### 4/30/2019 -->
+<!-- - Final day of class - thanks for a great semester. -->
+
+<!-- - Slide 6 - has been added. -->
+
+<!-- #### 4/29/2019 -->
+<!-- - Exercises 9 and 10 added. -->
+
+<!-- - Reading page has been updated to reflect all of the course material. -->
+
+
+
+<!-- #### 4/23/2019 -->
+<!-- - Tutorial 21 added. -->
+
+
+<!-- #### 4/16/2019 -->
+<!-- - Tutorial 20 added. -->
+
+
+<!-- #### 4/9/2019 -->
+<!-- - Tutorial 19 and Exercise 08 added. -->
+
+
+<!-- #### 4/2/2019 -->
+<!-- - Tutorial 18, package folder, and Slides 05 have been added. -->
+
+
+<!-- ##### 3/26/2019 -->
+<!-- - Tutorials 17 added. -->
+
+
+<!-- ##### 3/19/2019 -->
+<!-- - No class, Spring break. -->
+
+
+<!-- ##### 3/12/2019 -->
+<!-- - Tutorials 14, 15, 16 added. -->
+
+
+<!-- ##### 3/5/2019 -->
+<!-- - Tutorial 13 has been added. -->
+
+
+<!-- ##### 3/4/2019 -->
+<!-- - Project page has been added.  Please e-mail me your group members so you can be assigned your underlying. -->
+
+
+<!-- ##### 2/26/2019 -->
+
+<!-- - Slides 04 have been added -->
+
+
+<!-- ##### 2/21/2019 -->
+
+<!-- - Exercises 06 and 07 have been added. -->
+
+
+<!-- ##### 2/19/2019 -->
+
+<!-- - Added a page called *Reading* that details all books and reading assignments for the course in chronological order. -->

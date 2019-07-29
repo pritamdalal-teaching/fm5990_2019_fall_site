@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4,h5",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">FM 5990 - Fall 2019</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="weekly_plan.html">Weekly Plan</a>
+</li>
+<li>
+  <a href="course_material.html">Course Material</a>
+</li>
+<li>
+  <a href="slide.html">Slides</a>
+</li>
+<li>
+  <a href="reading.html">Reading</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p> </p>
+<div id="reading" class="section level3">
+<h3><strong>Reading</strong></h3>
+<p> </p>
+<p>This purpose of this page is to list all reading assignments by subject, and roughly in chronological order. Here is a list of the texts that will be referenced throughout the course.</p>
+<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook (PDSH)</a> - Jake Vanderplas</p>
+<p><a href="https://jakevdp.github.io/WhirlwindTourOfPython/">A Whirlwind Tour of Python (WTP)</a> - Jake Vanderplas</p>
+<p><a href="python_for_data_analysis.pdf.pdf">Python for Data Analysis</a> - Wes McKinney</p>
+<p><a href="python_for_finance.pdf">Python for Finance</a> - Yves Hilpisch</p>
+<p><a href="introduction_to_statistical_learning.pdf">Introduction to Statistical Learning (ISLR)</a> - James, Witten, Hastie, Tibshirani</p>
+<p><a href="hull_9th_edition.pdf">Options, Futures, and Other Derivatives</a> - John C. Hull</p>
+<p><a href="https://pritamdalal.github.io/rff_book/">R for Finance</a> - Pritam Dalal</p>
+<p> </p>
+<div id="numpy" class="section level5">
+<h5>Numpy</h5>
+<p><em>PDSH</em> - 2.1 - understanding data-types in ipython</p>
+<p><em>PDSH</em> - 2.2 - the basics of numpy arrays</p>
+<p><em>PDSH</em> - 2.3 - computations on numpy arrays: universal functions</p>
+<p><em>PDSH</em> - 2.4 - aggregations: min, max, and everthing in between</p>
+<p><em>PDSH</em> - 2.5 - computations on arrays: broadcasting</p>
+<p><em>PDSH</em> - 2.6 - comparison, mask, and boolean logic</p>
+<p><em>PDSH</em> - 2.7 - fancy indexing</p>
+<p> </p>
+</div>
+<div id="basic-coding-topics" class="section level5">
+<h5>Basic Coding Topics</h5>
+<p><em>WTP</em> - 7 - built-in data structures</p>
+<p><em>WTP</em> - 8 - control flow statements</p>
+<p><em>WTP</em> - 9 - defining functions</p>
+<p> </p>
+</div>
+<div id="pandas" class="section level5">
+<h5>Pandas</h5>
+<p><em>PDSH</em> - 3.1 - introduction to pandas objects</p>
+<p><em>PDSH</em> - 3.2 - data indexing and selection</p>
+<p><em>PDSH</em> - 3.3 - operating on data in pandas</p>
+<p><em>PDSH</em> - 3.7 - combining datasets: merge and join</p>
+<p><em>PDSH</em> - 3.8 - aggregation and grouping</p>
+<!-- *PDSH* - 3.12 - high-performance pandas: eval() and query() -->
+<p><em>Python for Finance</em> - 6.1 - <code>pandas</code> basics (pp 137 - 151)</p>
+<p> </p>
+</div>
+<div id="finance-background" class="section level5">
+<h5>Finance Background</h5>
+<p><em>R for Finance</em> - Chapter 2 - options 101</p>
+<p><em>R for Finance</em> - Chapter 5 - profit and loss</p>
+<p><em>Hull (9th Ed)</em> - Chapter 19 - the greek letters (pp 399-430)</p>
+<p> </p>
+</div>
+<div id="data-visualization" class="section level5">
+<h5>Data Visualization</h5>
+<p><em>Python for Finance</em> - 5.1 - two dimensional plotting (pp 109 - 128)</p>
+<p><em>PDSH</em> - 4.14 - visualization with seaborn</p>
+<p> </p>
+</div>
+<div id="monte-carlo-simulation" class="section level5">
+<h5>Monte Carlo Simulation</h5>
+<p><em>Python for Finance</em> - 3.2 - monte carlo simulation (pp 59 - 88)</p>
+<p> </p>
+</div>
+<div id="python-ipython-jupyter" class="section level5">
+<h5>Python, IPython, Jupyter</h5>
+<p><em>WTP</em> - 2 - how to run python code</p>
+<p><em>PDSH</em> - chapter 1 - ipython: beyond normal python</p>
+<p><em>Python for Data Analysis</em> - chapter 3 (pp 45 - 78)</p>
+<p><a href="https://realpython.com/python-modules-packages/">Modules and Packages - An Introduction</a> - an article that defines a module and a package. I recommend working through all the examples using the python interactive console.</p>
+<p><a href="https://www.datacamp.com/community/blog/ipython-jupyter">IPython or Jupyter?</a> - an article on the shared history of the IPython and Jupyter projects.</p>
+<p> </p>
+</div>
+<div id="machine-learning" class="section level5">
+<h5>Machine Learning</h5>
+<p><em>PDSH</em> - 5.1 - what is machine learing</p>
+<p><em>PDSH</em> - 5.2 - introducing scikit-learn</p>
+<p><em>PDSH</em> - 5.3 - hyperparameters and model validation</p>
+<p><em>PDSH</em> - 5.4 - feature engineering</p>
+<p><em>PDSH</em> - 5.6 - in depth: linear regression</p>
+<p><em>PDSH</em> - 5.9 - principal components analysis</p>
+<!-- *ISLR* - chapter 2 - statistical learning (pp 15 - 52)  -->
+<p><em>ISLR</em> - 3.1 - simple linear regression (pp 59 - 71)</p>
+<p><em>ISLR</em> - 10.2 - principal components analysis (pp 374 - 385)</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
