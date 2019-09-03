@@ -89,6 +89,13 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 ### Announcements
 
 
+#### Tuesday 9/3/2017
+- First day of class Fall 2019.  Welcome incoming MFM students.
+
+- Website is live.
+
+- For those of you are sitting-in on the first session, please formally enroll this week if you would like to continue attending.
+
 <!-- #### 4/30/2019 -->
 <!-- - Final day of class - thanks for a great semester. -->
 

@@ -14,9 +14,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp;
 
-### **Weekly Plan**
+### **Weekly Agenda**
 
-This page will serve as a more detailed plan for weeks to come, and also a record what was covered in previous weeks.
+This page is a detailed record of what was covered during a particular session.  It is assumed that the required reading and coding exercises will be complete by the following week. 
 
 &nbsp;
 
@@ -25,9 +25,9 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Material Covered:*</span> 
 
-**Topics:** administrative housekeeping, syllabus, installing Anaconda distribution, introductory remarks about python, lists, dicts, numpy arrays, dataframes, operations on dataframe columns, aggregating calculations on dataframe columns
+**Topics:** The main goal is to get Anaconda installed on everyone's machince.  With any remaining time we will start working through tutorials.  Toward the end of the class we will cover some administrative housekeeping.
 
-**Slides:** 01_housekeeping; 02_python_intro
+**Slides:** 01_installation; 02_syllabus
 
 **Tutorials:** 01_jupyter_intro, 02_python_basics, 03_numpy_pandas_intro
 

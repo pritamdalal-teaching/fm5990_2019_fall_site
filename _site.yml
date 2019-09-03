@@ -6,8 +6,8 @@ navbar:
   left:
     - text: "Syllabus"
       href: syllabus.html
-    - text: "Weekly Plan"
-      href: weekly_plan.html
+    - text: "Weekly Agenda"
+      href: weekly_agenda.html
     - text: "Course Material"
       href: course_material.html
     - text: "Slides"

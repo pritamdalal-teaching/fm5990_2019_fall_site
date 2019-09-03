@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Instructor & Contact
 **Pritam Dalal**
 
-email: dalal030@umn.edu (change this)
+email: pritam@umn.edu
 
 github: pritamdalal
 
