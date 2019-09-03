@@ -9,16 +9,18 @@ title: ""
 &nbsp;
 
 
-[01 - Housing Keeping](slide/01_housekeeping.pdf)
+[01 - Installation & Course Materials](slide/01_installation.pdf)
 
-[02 - Introduction to Python](slide/02_python_intro.pdf)
+[02 - Syllabus](slide/02_syllabus.pdf)
 
-[03 - A Guide to the Programming Books](slide/03_guide_to_programming_book.pdf)
+[03 - Introduction to Python](slide/03_python_intro.pdf)
 
-[04 - Finance Bootcamp](slide/04_finance_bootcamp.pdf)
+[04 - A Guide to the Programming Books](slide/04_guide_to_programming_book.pdf)
 
-[05 - Python, IPython, Jupyter](slide/05_python_ipython_jupyter.pdf)
+<!-- [04 - Finance Bootcamp](slide/04_finance_bootcamp.pdf) -->
 
-[06 - Course Wrap-Up](slide/06_course_wrap_up.pdf)
+<!-- [05 - Python, IPython, Jupyter](slide/05_python_ipython_jupyter.pdf) -->
+
+<!-- [06 - Course Wrap-Up](slide/06_course_wrap_up.pdf) -->
 
 

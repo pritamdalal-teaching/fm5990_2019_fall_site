@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -67,7 +68,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -228,18 +228,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -302,12 +290,13 @@ $(document).ready(function () {
 <div id="slides" class="section level3">
 <h3><strong>Slides</strong></h3>
 <p> </p>
-<p><a href="slide/01_housekeeping.pdf">01 - Housing Keeping</a></p>
-<p><a href="slide/02_python_intro.pdf">02 - Introduction to Python</a></p>
-<p><a href="slide/03_guide_to_programming_book.pdf">03 - A Guide to the Programming Books</a></p>
-<p><a href="slide/04_finance_bootcamp.pdf">04 - Finance Bootcamp</a></p>
-<p><a href="slide/05_python_ipython_jupyter.pdf">05 - Python, IPython, Jupyter</a></p>
-<p><a href="slide/06_course_wrap_up.pdf">06 - Course Wrap-Up</a></p>
+<p><a href="slide/01_installation.pdf">01 - Installation &amp; Course Materials</a></p>
+<p><a href="slide/02_syllabus.pdf">02 - Syllabus</a></p>
+<p><a href="slide/03_python_intro.pdf">03 - Introduction to Python</a></p>
+<p><a href="slide/04_guide_to_programming_book.pdf">04 - A Guide to the Programming Books</a></p>
+<!-- [04 - Finance Bootcamp](slide/04_finance_bootcamp.pdf) -->
+<!-- [05 - Python, IPython, Jupyter](slide/05_python_ipython_jupyter.pdf) -->
+<!-- [06 - Course Wrap-Up](slide/06_course_wrap_up.pdf) -->
 </div>
 
 
@@ -327,6 +316,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
