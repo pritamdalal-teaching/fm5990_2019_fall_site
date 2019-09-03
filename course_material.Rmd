@@ -14,13 +14,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp;
 
-### **Material**
+### **Materials**
 
 &nbsp;
 
 At any given time, all completed tutorials and exercises can be downloaded by clicking on the link below.  At the start of each class, you will likely have to download the latest set of tutorials.  The majority of class time will be spent working through tutorials together.
 
-[All Material](fm5990_2019_fall_material_20190829.zip)
+[All Materials](fm5990_2019_fall_material_20190829.zip)
 
 &nbsp;
 
