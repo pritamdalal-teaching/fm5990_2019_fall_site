@@ -89,6 +89,13 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 ### Announcements
 
 
+#### Friday 9/13/2019
+- Tutorial 5 has been updated so that all code is commented in the "non-filled" version.
+
+- Weeks 2 and 3 Agenda has been updated.
+
+
+
 #### Tuesday 9/3/2017
 - First day of class Fall 2019.  Welcome incoming MFM students.
 
@@ -96,10 +103,7 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 - For those of you are sitting-in on the first session, please formally enroll this week if you would like to continue attending.
 
-<!-- #### 4/30/2019 -->
-<!-- - Final day of class - thanks for a great semester. -->
 
-<!-- - Slide 6 - has been added. -->
 
 <!-- #### 4/29/2019 -->
 <!-- - Exercises 9 and 10 added. -->
