@@ -42,7 +42,7 @@ This page is a detailed record of what was covered during a particular session. 
 
 &nbsp;
 
-#### (02) 09/10 - intro to `pandas` and `numpy`
+#### (02) 09/10 - `DataFrame` indexing, slicing, masking
 
 
 <span style="color:gray":>*Material Covered:*</span>
