@@ -64,7 +64,7 @@ This page is a detailed record of what was covered during a particular session. 
 &nbsp;
 
 
-#### (03) 09/17 - functions, iteration, aggregation
+#### (03) 09/17 - functions, iteration
 
 
 <span style="color:gray":>*Material Covered:*</span>
