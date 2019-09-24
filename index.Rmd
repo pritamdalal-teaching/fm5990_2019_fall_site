@@ -88,6 +88,12 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 ### Announcements
 
+#### Tuesday 9/23/2019
+
+- Week 4 agenda has been updated
+
+- If you have not formally signed up for the course, please do so by the end of this week.  Please contact Robin Dixon (rdixon@umn.edu) for a permission number.
+
 
 #### Friday 9/13/2019
 - Tutorial 5 has been updated so that all code is commented in the "non-filled" version.

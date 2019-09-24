@@ -69,11 +69,11 @@ This page is a detailed record of what was covered during a particular session. 
 
 <span style="color:gray":>*Material Covered:*</span>
 
-**Topics:** if-else, iteration, calculating returns, writing functions, calculating option payoffs, aggregation and grouping
+**Topics:** if-else, iteration, calculating returns, writing functions
 
 **Slides:** NA
 
-**Tutorials:** 06_calculating_returns, 07_functions, 08_calculating_option_payoff, 09_aggregation_grouping_part_1
+**Tutorials:** 06_calculating_returns, 07_functions
 
 <span style="color:gray":>*Assignment:*</span>
 
@@ -86,27 +86,27 @@ This page is a detailed record of what was covered during a particular session. 
 &nbsp;
 
 
-<!-- #### (05) 02/19 - `merge()`, `groupby()`, `agg()` -->
+#### (04) 09/24 - `apply()`, `merge()`, `groupby()`, `agg()`
 
 
-<!-- <span style="color:gray":>*Material Covered:*</span>  -->
+<span style="color:gray":>*Material Covered:*</span>
 
-<!-- **Topics:** joining using the `.merge()` function, aggregation and grouping, working through a more complex analysis -->
+**Topics:** using `.apply()` to vectorize functions, grouping and aggregation
 
-<!-- **Slides:** NA -->
+**Slides:** NA
 
-<!-- **Tutorials:** 10_joining_dataframes, 11_aggregation_grouping_part_2, 12_occ_volume_analysis -->
+**Tutorials:** 08_apply, 09_aggregation_and_grouping_part_1, 10_joining_dataframes
 
-<!-- <span style="color:gray":>*Assignment:*</span>  -->
+<span style="color:gray":>*Assignment:*</span>
 
-<!-- **Coding Exercise:** 04_occ_volume, 05_iwm_vs_tna (start this, it's a bit tougher) -->
+**Coding Exercise:** 04_occ_volume, 05_iwm_vs_tna (start this, it's a bit tougher)
 
-<!-- **Required Reading:** P4F 5.1 (two dimensional plotting - pp 109-128); PDSH 4.1-4.2 -->
+**Required Reading:** P4F 5.1 (two dimensional plotting - pp 109-128); PDSH 4.1-4.2
 
-<!-- **Supplemental Reading:** P4F 6.1 (pandas basics - pp 137-151) -->
+**Supplemental Reading:** P4F 6.1 (pandas basics - pp 137-151)
 
 
-<!-- &nbsp; -->
+&nbsp;
 
 
 <!-- #### (06) 02/26 - finance bootcamp -->
