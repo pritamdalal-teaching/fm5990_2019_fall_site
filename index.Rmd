@@ -88,6 +88,11 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 ### Announcements
 
+#### Tuesday 10/01/2019
+
+- Week 5 and 6 agenda has been updated.
+
+
 #### Tuesday 9/23/2019
 
 - Week 4 agenda has been updated

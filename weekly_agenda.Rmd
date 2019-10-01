@@ -37,7 +37,7 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Required Reading:** PDSH 2.1-2.7; PDSH 3.1-3.3; WTP 7-8
 
-**Supplemental Reading:** LOD - Options 101
+**Supplemental Reading:** RFF - Options 101
 
 
 &nbsp;
@@ -81,7 +81,7 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Required Reading:** WTP 8, 11; PDSH 3.7-3.8, 3.12
 
-**Supplemental Reading:** LOD 5.4; Python for Data Analysis (McKinney) - Chapter 9 (pp 251-274); Hull - Chapter 15 (pp 325-329)
+**Supplemental Reading:** RFF 5.4; Python for Data Analysis (McKinney) - Chapter 9 (pp 251-274); Hull - Chapter 15 (pp 325-329)
 
 &nbsp;
 
@@ -109,28 +109,52 @@ This page is a detailed record of what was covered during a particular session. 
 &nbsp;
 
 
-<!-- #### (06) 02/26 - finance bootcamp -->
+
+#### (05) 10/1 - more `group_by()`, occ volume analysis
 
 
-<!-- <span style="color:gray":>*Material Covered:*</span>  -->
+<span style="color:gray":>*Material Covered:*</span>
 
-<!-- **Topics:** We cover, at a very high-level, the finance material that you will need to know for the remainder of the course.  This will be a very cursory treatment, and my intention is for you to be able to complete the project, even if you don't fully grasp all the finance.  We'll also discuss the project. -->
+**Topics:** We're going to cover additional material on `group_by()` and `agg()` since it's such an important technique.  Then we'll put together what we've learned so far by completing an option volume analysis.
 
-<!-- **Slides:** 04_finance_bootcamp -->
+**Slides:** NA
 
-<!-- **Tutorials:** NA -->
+**Tutorials:** 11_aggregation_and_grouping_part_2 
 
-<!-- <span style="color:gray":>*Assignment:*</span>  -->
+<span style="color:gray":>*Assignment:*</span>
 
-<!-- **Coding Exercise:** 05_iwm_vs_tna, choose groups and e-mail me your group members -->
+**Coding Exercise:** 05_iwm_vs_tna (keep working on this), choose groups and e-mail me your group members
 
-<!-- **Required Reading:** NA -->
+**Required Reading:** NA
 
-<!-- **Supplemental Reading:** LOD 2.1-2.3, 3.2-3.3, 5.1-5.5  -->
+**Supplemental Reading:** RFF 2.1-2.3, 3.2-3.3, 5.1-5.5
+
+
+
+
+
+#### (07) 10/8 - finance bootcamp
+
+
+<span style="color:gray":>*Material Covered:*</span>
+
+**Topics:** We cover, at a very high-level, the finance material that you will need to know for the remainder of the course.  This will be a very cursory treatment, and my intention is for you to be able to complete the project, even if you don't fully grasp all the finance.  We'll also discuss the project.
+
+**Slides:** 04_finance_bootcamp
+
+**Tutorials:** NA
+
+<span style="color:gray":>*Assignment:*</span>
+
+**Coding Exercise:** NA
+
+**Required Reading:** NA
+
+**Supplemental Reading:** NA
 
 <!-- &nbsp; -->
 
-<!-- #### (07) 03/05 - group projects assigned and visualziation -->
+<!-- #### (06) 03/05 - group projects assigned and visualziation -->
 
 
 <!-- <span style="color:gray":>*Material Covered:*</span>  -->
@@ -152,7 +176,7 @@ This page is a detailed record of what was covered during a particular session. 
 <!-- &nbsp; -->
 
 
-<!-- #### (08) 03/12 - more visualization -->
+<!-- #### (07) 03/12 - more visualization -->
 
 
 <!-- <span style="color:gray":>*Material Covered:*</span>  -->
@@ -174,11 +198,11 @@ This page is a detailed record of what was covered during a particular session. 
 <!-- &nbsp; -->
 
 
-<!-- #### (09) 03/19 - spring break, no class -->
+<!-- #### (08) 03/19 - spring break, no class -->
 
 <!-- &nbsp; -->
 
-<!-- #### (10) 03/26 - additional data analysis topics -->
+<!-- #### (09) 03/26 - additional data analysis topics -->
 
 
 <!-- <span style="color:gray":>*Material Covered:*</span>  -->
@@ -200,7 +224,7 @@ This page is a detailed record of what was covered during a particular session. 
 
 <!-- &nbsp; -->
 
-<!-- #### (11) 04/02 - python, ipython, and jupyter -->
+<!-- #### (10) 04/02 - python, ipython, and jupyter -->
 
 
 <!-- <span style="color:gray":>*Material Covered:*</span>  -->
