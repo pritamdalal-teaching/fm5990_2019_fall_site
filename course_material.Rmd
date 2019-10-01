@@ -22,6 +22,9 @@ At any given time, all completed tutorials and exercises can be downloaded by cl
 
 [All Materials](fm5990_2019_fall_material_20190913.zip)
 
+[OCC Option Volume Data](occ_option_volume_201808.zip)
+
+[Supplemental Materials](fm5990_2019_fall_material_supplemental_20191001.zip)
 &nbsp;
 
 #### Tutorials
@@ -48,7 +51,7 @@ At any given time, all completed tutorials and exercises can be downloaded by cl
 
 11 - aggregation and grouping (part 2)
 
-<!-- 12 - occ volume analysis -->
+S01 - occ volume analysis
 
 12 - line graphs with `pandas`
 
