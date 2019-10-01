@@ -17,7 +17,7 @@ title: ""
 
 [04 - A Guide to the Programming Books](slide/04_guide_to_programming_book.pdf)
 
-05 - Finance Bootcamp](slide/05_finance_bootcamp.pdf)
+[05 - Finance Bootcamp](slide/05_finance_bootcamp.pdf)
 
 <!-- [05 - Python, IPython, Jupyter](slide/05_python_ipython_jupyter.pdf) -->
 
