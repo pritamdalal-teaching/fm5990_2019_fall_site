@@ -10,6 +10,8 @@ navbar:
       href: weekly_agenda.html
     - text: "Course Material"
       href: course_material.html
+    - text: "Project"
+      href: project.html
     - text: "Slides"
       href: slide.html
     - text: "Reading"

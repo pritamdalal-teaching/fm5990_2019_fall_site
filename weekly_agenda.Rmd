@@ -110,12 +110,12 @@ This page is a detailed record of what was covered during a particular session. 
 
 
 
-#### (05) 10/1 - more `group_by()`, occ volume analysis
+#### (05) 10/1 - more `group_by()`
 
 
 <span style="color:gray":>*Material Covered:*</span>
 
-**Topics:** We're going to cover additional material on `group_by()` and `agg()` since it's such an important technique.  Then we'll put together what we've learned so far by completing an option volume analysis.
+**Topics:** We're going to cover additional material on `group_by()` and `agg()` since it's such an important technique. 
 
 **Slides:** NA
 
@@ -130,19 +130,19 @@ This page is a detailed record of what was covered during a particular session. 
 **Supplemental Reading:** RFF 2.1-2.3, 3.2-3.3, 5.1-5.5
 
 
+&nbsp;
 
 
-
-#### (06) 10/8 - finance bootcamp
+#### (06) 10/8 - occ volume analyisis & finance bootcamp
 
 
 <span style="color:gray":>*Material Covered:*</span>
 
-**Topics:** We cover, at a very high-level, the finance material that you will need to know for the remainder of the course.  This will be a very cursory treatment, and my intention is for you to be able to complete the project, even if you don't fully grasp all the finance.  We'll also discuss the project.
+**Topics:** We'll start by applying all the skills we've learned so far by completing an analysis of OCC option volumen data.  We also cover the finance material you will need to complete projects. We'll also discuss the project.
 
 **Slides:** 04_finance_bootcamp
 
-**Tutorials:** NA
+**Tutorials:** S01_occ_volume_analysis
 
 <span style="color:gray":>*Assignment:*</span>
 
