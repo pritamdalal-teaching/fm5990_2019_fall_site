@@ -73,7 +73,7 @@ I will reference a variety of other freely avaiable texts throughout the course.
 
 The following two are great additional python resourses.  As their titles suggest, McKinney's book focuses on data analysis while Hilpisch teaches Python in a variety of finance contexts.
 
-[Python for Data Analysis](python_for_data_analysis.pdf.pdf) - Wes McKinney
+[Python for Data Analysis](python_for_data_analysis.pdf) - Wes McKinney
 
 
 [Python for Finance](python_for_finance.pdf) - Yves Hilpisch

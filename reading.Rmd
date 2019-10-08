@@ -22,7 +22,7 @@ This purpose of this page is to list all reading assignments by subject, and rou
 
 [A Whirlwind Tour of Python (WTP)](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake Vanderplas
 
-[Python for Data Analysis](python_for_data_analysis.pdf.pdf) - Wes McKinney
+[Python for Data Analysis](python_for_data_analysis.pdf) - Wes McKinney
 
 [Python for Finance](python_for_finance.pdf) - Yves Hilpisch
 
