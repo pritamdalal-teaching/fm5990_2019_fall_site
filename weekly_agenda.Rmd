@@ -138,7 +138,7 @@ This page is a detailed record of what was covered during a particular session. 
 
 <span style="color:gray":>*Material Covered:*</span>
 
-**Topics:** We'll start by applying all the skills we've learned so far by completing an analysis of OCC option volumen data.  We also cover the finance material you will need to complete projects. We'll also discuss the project.
+**Topics:** We'll start by applying all the skills we've learned so far by completing an analysis of OCC option volumen data.  We also cover the finance material you will need to complete projects.
 
 **Slides:** 04_finance_bootcamp
 
@@ -152,48 +152,49 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Supplemental Reading:** NA
 
-<!-- &nbsp; -->
-
-<!-- #### (06) 03/05 - group projects assigned and visualziation -->
+&nbsp;
 
 
-<!-- <span style="color:gray":>*Material Covered:*</span>  -->
-
-<!-- **Topics:** We'll discuss the group projects and start talking about data visualization. -->
-
-<!-- **Slides:** NA -->
-
-<!-- **Tutorials:** 13_line_graphs_with_pandas -->
-
-<!-- <span style="color:gray":>*Assignment:*</span>  -->
-
-<!-- **Coding Exercise:** 06_option_pnl -->
-
-<!-- **Required Reading:** PDSH 1.3, P4F 6.2 (financial data - pp 151-157) -->
-
-<!-- **Supplemental Reading:** P4DA 8.1-8.2 (pp 219 - 241) -->
-
-<!-- &nbsp; -->
+#### (07) 10/15 - visualization and group projects
 
 
-<!-- #### (07) 03/12 - more visualization -->
+<span style="color:gray":>*Material Covered:*</span>
+
+**Topics:** We'll discuss the group projects and start talking about data visualization.
+
+**Slides:** NA
+
+**Tutorials:** 13_line_graphs, 14_bar_charts, 15_scatter_plots   
+
+<span style="color:gray":>*Assignment:*</span>
+
+**Coding Exercise:** 06_option_pnl
+
+**Required Reading:** PDSH 1.3, P4F 6.2 (financial data - pp 151-157)
+
+**Supplemental Reading:** P4DA 8.1-8.2 (pp 219 - 241)
+
+&nbsp;
 
 
-<!-- <span style="color:gray":>*Material Covered:*</span>  -->
+#### (08) 10/22 - seaborn visualizations, misc topics
 
-<!-- **Topics:** Jupyter tips and tricks (keyboard shortcuts, restart and run all, restart and clear output, move selected cells up/down) -->
 
-<!-- **Slides:** NA -->
+<span style="color:gray":>*Material Covered:*</span>
 
-<!-- **Tutorials:** 14_bar_charts_with_pandas, 15_scatter_plots_with_pandas, 16_visualization_with_seaborn -->
+**Topics:** Visualization with the `seaborn` package, grabbing web data with `pandas_datareader`, and other ways of interacting with Python
 
-<!-- <span style="color:gray":>*Assignment:*</span>  -->
+**Slides:** NA
 
-<!-- **Coding Exercise:** 07_spy_calls -->
+**Tutorials:** 16_visualization_with_seaborn
 
-<!-- **Required Reading:** PDSH 4.14  -->
+<span style="color:gray":>*Assignment:*</span>
 
-<!-- **Supplemental Reading:** P4F 121-127 (other plot types); [Official Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html) -->
+**Coding Exercise:** 07_spy_calls
+
+**Required Reading:** PDSH 4.14
+
+**Supplemental Reading:** P4F 121-127 (other plot types); [Official Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html)
 
 <!-- &nbsp; -->
 
