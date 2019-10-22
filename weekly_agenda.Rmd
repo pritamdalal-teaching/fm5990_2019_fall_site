@@ -196,12 +196,7 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Supplemental Reading:** P4F 121-127 (other plot types); [Official Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html)
 
-<!-- &nbsp; -->
 
-
-<!-- #### (08) 03/19 - spring break, no class -->
-
-<!-- &nbsp; -->
 
 <!-- #### (09) 03/26 - additional data analysis topics -->
 

@@ -86,33 +86,39 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 &nbsp;
 
-### Announcements
+### Announcements:
+
+##### Tuesday 10/22/2019
+
+- Added some new content to the supplemental materials folder, so you will need
+to  redownload those.
+
+- Slide 6 has been added.
 
 
-#### Monday 10/7/2019
+##### Monday 10/7/2019
 
 - Added the project page.
 
-#### Tuesday 10/01/2019
+##### Tuesday 10/01/2019
 
 - Week 5 and 6 agenda has been updated.
 
 
-#### Tuesday 9/23/2019
+##### Tuesday 9/23/2019
 
 - Week 4 agenda has been updated
 
 - If you have not formally signed up for the course, please do so by the end of this week.  Please contact Robin Dixon (rdixon@umn.edu) for a permission number.
 
-
-#### Friday 9/13/2019
+##### Friday 9/13/2019
 - Tutorial 5 has been updated so that all code is commented in the "non-filled" version.
 
 - Weeks 2 and 3 Agenda has been updated.
 
 
 
-#### Tuesday 9/3/2017
+##### Tuesday 9/3/2017
 - First day of class Fall 2019.  Welcome incoming MFM students.
 
 - Website is live.
