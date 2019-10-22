@@ -164,7 +164,7 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Slides:** NA
 
-**Tutorials:** 13_line_graphs, 14_bar_charts, 15_scatter_plots   
+**Tutorials:** 12_line_graphs, 13_bar_charts, 14_scatter_plots   
 
 <span style="color:gray":>*Assignment:*</span>
 
@@ -186,7 +186,7 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Slides:** NA
 
-**Tutorials:** 16_visualization_with_seaborn
+**Tutorials:** 15_visualization_with_seaborn, 16_datareader
 
 <span style="color:gray":>*Assignment:*</span>
 
