@@ -196,26 +196,26 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Supplemental Reading:** P4F 121-127 (other plot types); [Official Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html)
 
+&nbsp;
+
+#### (10) 03/26 - additional data analysis topics
 
 
-<!-- #### (09) 03/26 - additional data analysis topics -->
+<span style="color:gray":>*Material Covered:*</span>
 
+**Topics:** discuss the analysis project, data analysis project sketches, simulation
 
-<!-- <span style="color:gray":>*Material Covered:*</span>  -->
+**Slides:** NA
 
-<!-- **Topics:** discuss the analysis project, simulation, set up VS Code -->
+**Tutorials:** S02_simulation
 
-<!-- **Slides:** NA -->
+<span style="color:gray":>*Assignment:*</span>
 
-<!-- **Tutorials:** 17_simulation -->
+**Coding Exercise:** NA
 
-<!-- <span style="color:gray":>*Assignment:*</span>  -->
+**Required Reading:** NA
 
-<!-- **Coding Exercise:** NA -->
-
-<!-- **Required Reading:** NA  -->
-
-<!-- **Supplemental Reading:** P4F pp 59-68 (Monte Carlo Simulation); P4F pp 266-287 (Random Generation) -->
+**Supplemental Reading:** P4F pp 59-68 (Monte Carlo Simulation); P4F pp 266-287 (Random Generation)
 
 
 <!-- &nbsp; -->
