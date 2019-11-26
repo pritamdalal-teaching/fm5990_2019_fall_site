@@ -88,6 +88,12 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 ### Announcements:
 
+
+##### Tueday 11/26/2019
+- Today we start working through the decision tree material.  I have shared a Google Drive folder with you all, which will allow you to download the files for each week.
+
+- Weekly agenda has been updated for all of November.
+
 ##### Tuesday 10/22/2019
 
 - Added some new content to the supplemental materials folder, so you will need
