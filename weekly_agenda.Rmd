@@ -320,9 +320,9 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Slides:** 07_tree_based_methods
 
-**Tutorials:** 19_pca
+**Tutorials:** wolverine_volume_20161126
 
-<span style="color:gray":>*Assignment:*</span>
+<aspan style="color:gray":>*Assignment:*</span>
 
 **Coding Exercise:** NA
 
@@ -330,25 +330,25 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Supplemental Reading:** NA
 
-<!-- &nbsp; -->
+&nbsp;
 
-<!-- #### (14) 04/30 - TBD -->
+#### (14) 12/03 - tree based methods part 2
 
 
-<!-- <span style="color:gray":>*Material Covered:*</span>  -->
+<span style="color:gray":>*Material Covered:*</span>
 
-<!-- **Topics:** Review and discussion of all topics covered over the semester.  -->
+**Topics:** second week of predicting option volumes with tree-based methods
 
-<!-- **Slides:** 06_class_wrap_up -->
+**Slides:** NA
 
-<!-- **Tutorials:** NA -->
+**Tutorials:** wolverine_volume_20161130
 
-<!-- <span style="color:gray":>*Assignment:*</span>  -->
+<span style="color:gray":>*Assignment:*</span>
 
-<!-- **Coding Exercise:** NA -->
+**Coding Exercise:** NA
 
-<!-- **Required Reading:** NA -->
+**Required Reading:** NA
 
-<!-- **Supplemental Reading:** NA -->
+**Supplemental Reading:** NA
 
 
