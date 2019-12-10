@@ -24,12 +24,11 @@ This purpose of this page is to list all reading assignments by subject, and rou
 
 [Python for Data Analysis 1e](python_for_data_analysis.pdf) - Wes McKinney
 
-[Python for Data Analysis 1e](python_for_data_analysis.pdf) - Wes McKinney
+[Python for Data Analysis 2e](python_for_data_analysis_2e.pdf) - Wes McKinney
 
 [Python for Finance](python_for_finance.pdf) - Yves Hilpisch
 
 [Introduction to Statistical Learning (ISLR)](introduction_to_statistical_learning.pdf) - James, Witten, Hastie, Tibshirani
-
 
 [Options, Futures, and Other Derivatives](hull_9th_edition.pdf) - John C. Hull
 
