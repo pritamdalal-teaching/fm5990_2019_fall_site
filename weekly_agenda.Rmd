@@ -205,9 +205,9 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Topics:** discuss the analysis project, data analysis project sketches, simulation, discuss the history of IPython and the Jupyter Project
 
-**Slides:** NA
+**Slides:** 05_python_ipython_jupyter
 
-**Tutorials:** S02_simulation, 05_python_ipython_jupyter
+**Tutorials:** S02_simulation,
 
 <span style="color:gray":>*Assignment:*</span>
 

@@ -22,7 +22,9 @@ This purpose of this page is to list all reading assignments by subject, and rou
 
 [A Whirlwind Tour of Python (WTP)](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake Vanderplas
 
-[Python for Data Analysis](python_for_data_analysis.pdf) - Wes McKinney
+[Python for Data Analysis 1e](python_for_data_analysis.pdf) - Wes McKinney
+
+[Python for Data Analysis 1e](python_for_data_analysis.pdf) - Wes McKinney
 
 [Python for Finance](python_for_finance.pdf) - Yves Hilpisch
 
@@ -123,7 +125,9 @@ This purpose of this page is to list all reading assignments by subject, and rou
 
 *PDSH* - chapter 1 - ipython: beyond normal python
 
-*Python for Data Analysis* - chapter 3 (pp 45 - 78)
+*Python for Data Analysis 1e* - chapter 3 (pp 45 - 78)
+
+*Python for Data Analysis 2e* - chapter 2 (pp 15 - 30)
 
 [Modules and Packages - An Introduction](https://realpython.com/python-modules-packages/) - an article that defines a module and a package.  I recommend working through all the examples using the python interactive console.
 
@@ -152,3 +156,5 @@ This purpose of this page is to list all reading assignments by subject, and rou
 *ISLR* - 3.1 - simple linear regression (pp 59 - 71) 
 
 *ISLR* - 10.2 - principal components analysis (pp 374 - 385)
+
+*ISLR* - Chapter 8 - tree based methods (pp 303 - 332)
