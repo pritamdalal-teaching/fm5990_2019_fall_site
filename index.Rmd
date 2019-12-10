@@ -88,6 +88,13 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 ### Announcements:
 
+##### Tuesday 12/10/2019
+
+- Final day of class.  Thanks for a great semester.
+
+- Download wolverine_volume_20191210 from Google Drive folder.
+
+- All project have been graded and feedback has been sent.  Great job guys.
 
 ##### Wednesday 11/30/2019
 

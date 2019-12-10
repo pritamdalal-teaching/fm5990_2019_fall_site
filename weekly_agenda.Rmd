@@ -320,7 +320,7 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Slides:** 07_tree_based_methods
 
-**Tutorials:** wolverine_volume_20161126
+**Tutorials:** wolverine_volume_20191126
 
 <aspan style="color:gray":>*Assignment:*</span>
 
@@ -341,14 +341,35 @@ This page is a detailed record of what was covered during a particular session. 
 
 **Slides:** NA
 
-**Tutorials:** wolverine_volume_20161130
+**Tutorials:** wolverine_volume_20191130
 
 <span style="color:gray":>*Assignment:*</span>
 
 **Coding Exercise:** NA
 
-**Required Reading:** NA
+**Required Reading:** ISLR Chapter 8
 
 **Supplemental Reading:** NA
+
+
+#### (15) 12/10 - tree based methods part 3
+
+
+<span style="color:gray":>*Material Covered:*</span>
+
+**Topics:** third and final week of predicting option volumes with tree-based methods
+
+**Slides:** NA
+
+**Tutorials:** wolverine_volume_20191210
+
+<span style="color:gray":>*Assignment:*</span>
+
+**Coding Exercise:** NA
+
+**Required Reading:** ISLR Chapter 8
+
+**Supplemental Reading:** NA
+
 
 
