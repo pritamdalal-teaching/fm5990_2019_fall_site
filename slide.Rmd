@@ -22,6 +22,7 @@ title: ""
 [06 - Python, IPython, Jupyter](slide/06_python_ipython_jupyter.pdf)
 
 [07 - Tree Based Methods](slide/07_tree_based_methods.html)
-<!-- [06 - Course Wrap-Up](slide/06_course_wrap_up.pdf) -->
+
+[08 - Course Wrap-Up](slide/08_course_wrap_up.pdf)
 
 

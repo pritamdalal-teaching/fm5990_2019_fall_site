@@ -452,12 +452,26 @@ document.getElementsByTagName('head')[0].appendChild(style);
     <h1 class="title">Tree Based Methods</h1>
 </section>
 
+<section><section id="notation" class="titleslide slide level1"><h1>Notation</h1></section><section id="features-and-labels" class="slide level2">
+<h2><strong>Features and Labels</strong></h2>
+<p>Consider a learning problem where the training data consists of <span class="math inline">\(n\)</span> different observations of <span class="math inline">\(p\)</span> features.</p>
+<p>Let <span class="math inline">\((x_{i1} \ldots x_{ip})\)</span> denote the <span class="math inline">\(i\)</span>th observation of the training data, where <span class="math inline">\(i = 1,\ldots,n\)</span>.</p>
+<p>Then <span class="math inline">\(y_i\)</span> will denote the label observation associated with <span class="math inline">\((x_{i1} \ldots x_{ip})\)</span>.</p>
+</section><section id="prediction-function-model" class="slide level2">
+<h2><strong>Prediction Function (Model)</strong></h2>
+<p>Based on our training data, we would like to construct a prediction function <span class="math inline">\(f\)</span> - i.e. a model - such that for a feature observation that’s not in our training data (out-of-sample), call it <span class="math inline">\((x^{*}_1 \ldots x^{*}_p)\)</span>, it produces a label prediction <span class="math inline">\(y^{*}\)</span>.</p>
+<p>Once the actual label is realized, we can compare it to our prediction. If we repeat this for many out-of-sample feature observations, we can get a sense of the overall performace of our prediction function.</p>
+</section></section>
 <section><section id="decision-tree-regression" class="titleslide slide level1"><h1>Decision Tree Regression</h1></section><section id="regression-via-partition" class="slide level2">
 <h2><strong>Regression via Partition</strong></h2>
 <p>Consider a regression problem in which we are making predictions based on <span class="math inline">\(p\)</span> features.</p>
 <p>This means that the space of all possible feature observations is <span class="math inline">\(\mathbb{R}^p\)</span>.</p>
-<p>Let <span class="math inline">\(R_{1}, \ldots, R_{M}\)</span> be a partition of <span class="math inline">\(\mathbb{R}^p\)</span>, and let <span class="math inline">\(\hat{y}_{R_j}\)</span> be the average of all training labels whose feature instances lie in <span class="math inline">\(R_j\)</span>.</p>
-<p>A regression based on this partition is one in which the prediction for a given feature observation is <span class="math inline">\(\hat{y}_{R_j}\)</span> if that feature observation lies in <span class="math inline">\(R_{j}\)</span>.</p>
+<p>Let <span class="math inline">\(R_{1}, \ldots, R_{M}\)</span> be a partition of <span class="math inline">\(\mathbb{R}^p\)</span>, and let <span class="math inline">\(\hat{y}_{R_j}\)</span> be the average of all training labels whose associated feature instances lie in <span class="math inline">\(R_j\)</span>, where <span class="math inline">\(j = 1, \ldots, M\)</span>.</p>
+<p>A regression based on this partition is one in which the resulting prediction function <span class="math inline">\(f\)</span> is such that for an out of sample feature observation <span class="math inline">\((x^{*}_1, \ldots, x^{*}_p) \in R_{k}\)</span> we have that:</p>
+<span class="math display">\[\begin{align*}
+f(x^{*}_1, \ldots ,x^{*}_p) = \hat{y}_{R_k}
+\end{align*}\]</span>
+<!-- if that feature observation lies in $R_{j}$. -->
 <!-- author: Pritam Dalal -->
 <!-- date: "Active Analytics LLC <br> University of Minnesota, Twin Cities <br> <br> November 7th, 2019" -->
 </section><section id="how-to-partition-feature-space" class="slide level2">
@@ -481,11 +495,18 @@ R_{2}(j, s) &amp;= \{X \in \mathbb{R}^p | X_{j} \geq S\}
 \sum_{y_i \in R_1(j, s)} \big(y_{i} - \hat{y}_{R_1(j, s)}\big)^2 + \sum_{y_i \in R_2(j, s)} \big(y_{i} - \hat{y}_{R_2(j, s)}\big)^2
 \end{align*}\]</span>
 <p>This can be done fairly quickly if <span class="math inline">\(p\)</span> is not too large.</p>
-</section><section id="decision-tree-partitioning-algorithm-1-of-2-1" class="slide level2">
-<h2><strong>Decision Tree Partitioning Algorithm (1 of 2)</strong></h2>
+</section><section id="decision-tree-partitioning-algorithm-2-of-2" class="slide level2">
+<h2><strong>Decision Tree Partitioning Algorithm (2 of 2)</strong></h2>
 <p>The previous step results in a two region partition of the feature space <span class="math inline">\(\mathbb{R}^p\)</span>. Let’s call these two regions <span class="math inline">\(R^{1}_{1}\)</span> and <span class="math inline">\(R^{1}_{2}\)</span>.</p>
 <p>Next, we split one of the <span class="math inline">\(R^{1}_j\)</span> such that the total RSS is minimized. This results in a three region partition the feature space, call them <span class="math inline">\(R^{2}_{1}, R^{2}_{2}, R^{2}_{3}\)</span>. (Note that one of the <span class="math inline">\(R^2_{j}\)</span> is identical to the one of the regions in the previous step.)</p>
-<p>A decision tree partition is constructed by repeating this process until some stopping criterion is met, e.g. number of iteration, max number of nodes in region, etc.</p>
+<p>A decision tree partition is constructed by repeating this process until some stopping criterion is met, e.g. number of iterations, min number of nodes in region, maximum number of leaves, etc.</p>
+</section></section>
+<section><section id="more-sophisticated-tree-based-models" class="titleslide slide level1"><h1>More Sophisticated Tree-Based Models</h1></section><section id="improving-performance" class="slide level2">
+<h2><strong>Improving Performance</strong></h2>
+<p>Decision trees are easy to understand, but they tend to have poor performance. There are several refinements - all <em>ensemble</em> appraoches - that can improve performance.</p>
+<p><strong>Bagging</strong> - this is short for bootstrap aggregation. The idea is to many small trees using subsamples of the training data, and then average the results over the trees.</p>
+<p><strong>Random Forests</strong> - fit many small trees using subsets of the features and the the training data. Then average over the the results.</p>
+<p><strong>Gradient Boosting</strong> - fit one tree, and then one to its residuals, and then one to the aggregate residuals, etc. The final model is the aggregate of the progression of fitted trees.</p>
 <!-- # Python In Brief -->
 <!-- ## **A Little History** -->
 <!-- A general purpose language created in the late 1980s as language simple enough to teach children about programming. -->
